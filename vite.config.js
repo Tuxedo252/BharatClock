@@ -6,6 +6,6 @@ export default defineConfig({
   build: {
     outDir: "dist",
     assetsDir: "assets",
-    minify: false,
+    minify: true, // Enable minification for production
   },
 });
